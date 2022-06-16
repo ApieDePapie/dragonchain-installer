@@ -8,8 +8,8 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/dragonchain/dragonchain-installer/internal/configuration"
-	"github.com/dragonchain/dragonchain-installer/internal/helm"
+	"github.com/ApieDePapie/dragonchain-installer/internal/configuration"
+	"github.com/ApieDePapie/dragonchain-installer/internal/helm"
 )
 
 func doesHelmDeploymentExist(name string, namespace string) (bool, error) {
