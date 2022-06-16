@@ -10,8 +10,8 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/dragonchain/dragonchain-installer/internal/configuration"
-	"github.com/dragonchain/dragonchain-installer/internal/downloader"
+	"github.com/ApieDePapie/dragonchain-installer/internal/configuration"
+	"github.com/ApieDePapie/dragonchain-installer/internal/downloader"
 )
 
 func virtualBoxIsInstalled() bool {
